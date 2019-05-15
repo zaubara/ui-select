@@ -116,7 +116,7 @@ uis.directive('uiSelectSingle', ['$timeout','$compile', function($timeout, $comp
           return;
         }
 
-        if (e.which == KEY.DOWN  || e.which == KEY.UP || e.which == KEY.ENTER || e.which == KEY.SPACE){
+        if (e.which == KEY.DOWN  || e.which == KEY.UP || e.which == KEY.SPACE){
           e.preventDefault();
           e.stopPropagation();
           $select.activate();
